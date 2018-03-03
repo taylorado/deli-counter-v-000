@@ -2,10 +2,10 @@
 
 
 katz_deli = []
-line_length = katz_deli.length
+
 
 def line(katz_deli)
-  if line_length == 0
+  if katz_deli.length == 0
     puts "The line is currently empty."
   else
 
