@@ -13,7 +13,7 @@ def line(katz_deli)
       if index=0
         puts "The line is currently: "
       end
-      puts "#{index+1}. #{item}"
+      puts " #{item}"
   #    index +=1
     end
   end
