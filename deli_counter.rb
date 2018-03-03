@@ -7,7 +7,7 @@ katz_deli = []
 def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
-  
+
 
   else
     listOutput = "The line is currently: "
@@ -15,5 +15,6 @@ def line(katz_deli)
        listOutput += "#{index+1}. #{item} "
   #    index +=1
     end
+    return listOutput
   end
 end
