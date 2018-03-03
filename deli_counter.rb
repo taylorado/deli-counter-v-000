@@ -10,7 +10,7 @@ def line(katz_deli)
   else
     
     katz_deli.each_with_index do |item, index| 
-      puts "#{index+1}. #{item}"}
+      puts "#{index+1}. #{item}"
       index +=1
     end
   end
