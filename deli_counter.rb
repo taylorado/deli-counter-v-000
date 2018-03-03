@@ -10,9 +10,8 @@ def line(katz_deli)
   else
 
     puts "The line is currently: "
-    katz_deli.each do |index|
-      puts "#{index+1}. #{katz_deli[index]}"
+    katz_deli.each { |index| puts "#{index+1}. #{katz_deli[index]}"}
   #    index +=1
-    end
+#    end
   end
 end
