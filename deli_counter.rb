@@ -5,7 +5,7 @@ katz_deli = []
 
 
 def line(katz_deli)
-  if katz_deli.length == 0
+  if katz_deli.count == 0
     puts "The line is currently empty."
 
 
@@ -18,3 +18,8 @@ def line(katz_deli)
     puts listOutput
   end
 end
+
+
+def take_a_number(katz_deli, name)
+  if katz_deli.count == 0
+    puts "The line is currently empty."
