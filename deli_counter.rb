@@ -14,7 +14,7 @@ def line(katz_deli)
         puts "The line is currently: "
       end
       puts "#{index+1}. #{item}"
-      index +=1
+  #    index +=1
     end
   end
 end
