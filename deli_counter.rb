@@ -16,5 +16,5 @@ def line(katz_deli)
       puts " #{item}"
   #    index +=1
     end
-  end
+
 end
