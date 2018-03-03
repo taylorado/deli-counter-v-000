@@ -10,6 +10,9 @@ def line(katz_deli)
   else
 
     katz_deli.each_with_index do |item, index|
+      if index=0
+        puts "The line is currently: "
+      end
       puts "#{index+1}. #{item}"
       index +=1
     end
