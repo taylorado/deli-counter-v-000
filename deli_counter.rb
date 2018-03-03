@@ -11,6 +11,6 @@ def line(katz_deli)
     puts "The line is currently: "
     katz_deli.each_with_index { |item, index| puts "#{index+1}. #{item}"}
       index +=1
-    end
+#    end
   end
 end
