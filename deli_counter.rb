@@ -15,6 +15,6 @@ def line(katz_deli)
        listOutput += "#{index+1}. #{item} "
   #    index +=1
     end
-    return listOutput
+    puts listOutput
   end
 end
